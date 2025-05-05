@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "",
+    "slug": "NIVARAN",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/nivaran-app-logo.jpg",
+    "scheme": "client",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/nivaran-app-logo.jpg",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/nivaran-app-logo.jpg"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/nivaran-app-logo.jpg",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff"
+        }
+      ],
+      "expo-font"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
